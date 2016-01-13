@@ -1,0 +1,22 @@
+<!DOCTYPE= text/html>
+<html>
+
+<head>
+	<title>Bereken uw energiekosten en mogelijkheden</title>
+</head
+
+<body>
+  <div>
+	<table>
+		<thead>
+			<tr>Vul de vragen in</tr>
+		</thead>
+{% for ques in question %}
+	<tr>
+         	<td> {{ques|linebreaks}}</td>
+	</tr>
+  </div> 
+{% endfor %}
+</body>
+
+</html>
